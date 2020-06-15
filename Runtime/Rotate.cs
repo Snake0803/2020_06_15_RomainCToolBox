@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    Transform m_point;
+    [SerializeField]
+    Vector3 m_axis;
+
+    [SerializeField]
+    float m_angle;
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.RotateAround(m_point.position, m_axis, m_angle);
     }
 }
