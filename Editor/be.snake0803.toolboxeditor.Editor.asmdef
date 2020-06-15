@@ -1,0 +1,17 @@
+{
+    "name": "be.snake0803.toolboxeditor.Editor",
+    "references": [
+        "GUID:e714119affb4bd14e8f494e217c17321"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
