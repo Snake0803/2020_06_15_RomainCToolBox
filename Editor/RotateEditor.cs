@@ -1,20 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+using UnityEditor.Experimental.TerrainAPI;
 
-public class RotateEditor : MonoBehaviour
+[CustomEditor(typeof(Rotate))]
+public class RotateEditor : Editor
 {
     public Rotate m_rotate;
-
-    // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
-        
+        m_rotate = (Rotate)target;
     }
-
-    // Update is called once per frame
-    void Update()
+    public override void OnInspectorGUI()
     {
-        
+        base.OnInspectorGUI();
+
+        if (GUILayout.Button("Rotate to Point"))
+        {
+            m_rotate.RotatePoint();
+        }
     }
 }

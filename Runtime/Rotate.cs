@@ -15,6 +15,11 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        RotatePoint();
+    }
+
+    public void RotatePoint()
+    {
         transform.RotateAround(m_point.position, m_axis, m_angle);
     }
 }
