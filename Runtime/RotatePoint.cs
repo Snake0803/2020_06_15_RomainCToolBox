@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rotate : MonoBehaviour
+public class RotatePoint : MonoBehaviour
 {
     [SerializeField]
     Transform m_point;
@@ -15,10 +15,10 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RotatePoint();
+        RotateToPoint();
     }
 
-    public void RotatePoint()
+    public void RotateToPoint()
     {
         transform.RotateAround(m_point.position, m_axis, m_angle);
     }

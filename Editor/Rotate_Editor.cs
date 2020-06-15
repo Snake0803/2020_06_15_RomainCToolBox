@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using UnityEditor.Experimental.TerrainAPI;
 
-[CustomEditor(typeof(Rotate))]
-public class RotateEditor : Editor
+[CustomEditor(typeof(RotatePoint))]
+public class Rotate_Editor : Editor
 {
-    public Rotate m_rotate;
+    public RotatePoint m_rotate;
     private void OnEnable()
     {
-        m_rotate = (Rotate)target;
+        m_rotate = (RotatePoint)target;
     }
     public override void OnInspectorGUI()
     {
@@ -18,7 +17,7 @@ public class RotateEditor : Editor
 
         if (GUILayout.Button("Rotate to Point"))
         {
-            m_rotate.RotatePoint();
+            m_rotate.RotateToPoint();
         }
     }
 }
