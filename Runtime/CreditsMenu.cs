@@ -14,6 +14,7 @@ public class CreditsMenu : MonoBehaviour
     List<Text> m_ListTextStudent;
 
     [SerializeField]
+    [Tooltip("List of Image in the current canvas")]
     List<Image> m_ListImageProfile;
 
 
@@ -62,9 +63,13 @@ public class CreditsMenu : MonoBehaviour
             {
                 m_ListTextStudent[i].color = Color.blue;
             }
-            else
+            else if(listStudent[i].studentJob == CreditsData.m_studentJob.Artist)
             {
                 m_ListTextStudent[i].color = Color.green;
+            }
+            else
+            {
+                m_ListTextStudent[i].color = Color.red;
             }
         }
 

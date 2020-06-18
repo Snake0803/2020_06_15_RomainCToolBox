@@ -13,7 +13,8 @@ public class CreditsData : ScriptableObject
     public enum m_studentJob
     {
         Artist,
-        Developer
+        Developer,
+        Coach
     };
 
     public m_studentJob studentJob;
