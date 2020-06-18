@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ebf39f816e92a842a43a727a0e15cbc, type: 3}
   m_Name: Julien
   m_EditorClassIdentifier: 
-  m_studentName: Julien
-  m_studentFirstName: Coppenolle
+  m_studentName: Coppenolle
+  m_studentFirstName: Julien
   studentJob: 1
+  m_Surname: 

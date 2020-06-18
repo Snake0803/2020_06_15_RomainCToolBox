@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "Student", menuName = "Custom/Student", order = 0)]
 public class CreditsData : ScriptableObject
@@ -11,11 +12,14 @@ public class CreditsData : ScriptableObject
     [SerializeField]
     public enum m_studentJob
     {
-        artist,
-        developper
+        Artist,
+        Developer
     };
 
     public m_studentJob studentJob;
 
     public string m_Surname;
+
+    [SerializeField]
+    Image m_profilePicture;
 }

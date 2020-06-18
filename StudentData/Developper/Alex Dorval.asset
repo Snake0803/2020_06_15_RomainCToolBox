@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ebf39f816e92a842a43a727a0e15cbc, type: 3}
   m_Name: Alex Dorval
   m_EditorClassIdentifier: 
-  m_studentName: 'Alex '
-  m_studentFirstName: Dorval
+  m_studentName: Dorval
+  m_studentFirstName: Alex
   studentJob: 1
+  m_Surname: 
