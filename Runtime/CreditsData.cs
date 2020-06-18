@@ -21,5 +21,5 @@ public class CreditsData : ScriptableObject
     public string m_Surname;
 
     [SerializeField]
-    Image m_profilePicture;
+    public Sprite m_profilePicture;
 }

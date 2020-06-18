@@ -13,25 +13,12 @@ public class CreditsMenu : MonoBehaviour
     [Tooltip("List of Text in the current canvas")]
     List<Text> m_ListTextStudent;
 
+    [SerializeField]
+    List<Image> m_ListImageProfile;
+
+
     int lastIndex;
 
-    private void Start()
-    {
-        ShowNextPage();
-        /*for (int i = 0; i < m_ListStudent.Count; i++)
-        {
-            m_ListTextStudent[i].text = m_ListStudent[i].m_studentFirstName + " " + m_ListStudent[i].m_studentName + "\n" + m_ListStudent[i].studentJob.ToString();
-            if(m_ListStudent[i].studentJob == CreditsData.m_studentJob.Developer)
-            {
-                m_ListTextStudent[i].color = Color.blue;
-            }
-            else
-            {
-                m_ListTextStudent[i].color = Color.green;
-            }
-        }*/
-        
-    }
 
     [ContextMenu("Next Page")]
     public void ShowNextPage()
@@ -69,7 +56,8 @@ public class CreditsMenu : MonoBehaviour
     {
         for (int i = 0; i < m_ListTextStudent.Count; i++)
         {
-            m_ListTextStudent[i].text = listStudent[i].m_studentFirstName + " " + listStudent[i].m_studentName + "\n" + listStudent[i].studentJob.ToString();
+            m_ListTextStudent[i].text = listStudent[i].m_Surname + "\n" + listStudent[i].m_studentFirstName + " " + listStudent[i].m_studentName + "\n" + listStudent[i].studentJob.ToString();
+            m_ListImageProfile[i].sprite = listStudent[i].m_profilePicture;
             if (listStudent[i].studentJob == CreditsData.m_studentJob.Developer)
             {
                 m_ListTextStudent[i].color = Color.blue;
@@ -79,6 +67,7 @@ public class CreditsMenu : MonoBehaviour
                 m_ListTextStudent[i].color = Color.green;
             }
         }
+
     }
 
 
