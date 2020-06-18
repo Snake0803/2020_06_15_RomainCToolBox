@@ -9,7 +9,9 @@ public class CreditsMenu : MonoBehaviour
     List<CreditsData> m_ListStudent = new List<CreditsData>();
 
     [SerializeField]
-    List<Text> m_ListTextNameCanvas = new List<Text>();
+    Text m_ListText1Canvas;
+    Text m_ListText2Canvas;
+    Text m_ListText3Canvas;
 
 
 
