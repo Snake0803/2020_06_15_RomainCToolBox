@@ -518,6 +518,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fae53e6b3e6028848af8ae00f096369f, type: 2}
   - {fileID: 11400000, guid: 47ef45d2b410f064e964b74c8f03bb0d, type: 2}
   - {fileID: 11400000, guid: f95373a8f70958043a29aba5c1387a67, type: 2}
+  - {fileID: 11400000, guid: e6e57fa725d6b9843a413f016751ad2a, type: 2}
+  - {fileID: 11400000, guid: 09503e1029aebb7498c952b7819c2eec, type: 2}
   m_ListTextStudent:
   - {fileID: 163519981197064538}
   - {fileID: 163519980337956202}
@@ -561,7 +563,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -90.3, y: -32.4}
+  m_AnchoredPosition: {x: -90.3, y: -33.1}
   m_SizeDelta: {x: -220, y: -120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &163519981197064541
