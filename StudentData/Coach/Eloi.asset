@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ebf39f816e92a842a43a727a0e15cbc, type: 3}
   m_Name: Eloi
   m_EditorClassIdentifier: 
-  m_studentName: 
-  m_studentFirstName: 
-  studentJob: 0
+  m_studentName: Stree
+  m_studentFirstName: Eloi
+  studentJob: 2
   m_Surname: 
   m_profilePicture: {fileID: 0}

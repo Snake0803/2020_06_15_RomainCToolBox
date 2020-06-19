@@ -552,7 +552,7 @@ PrefabInstance:
     - target: {fileID: 163519980447114994, guid: 16551c007106f694082560c092c87843,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 150
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 163519980447114994, guid: 16551c007106f694082560c092c87843,
         type: 3}
@@ -589,6 +589,23 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2011360468}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_ListStudent.Array.size
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_ListStudent.Array.data[23]
+      value: 
+      objectReference: {fileID: 11400000, guid: e6e57fa725d6b9843a413f016751ad2a,
+        type: 2}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_ListStudent.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: 09503e1029aebb7498c952b7819c2eec,
+        type: 2}
     - target: {fileID: 163519980447115006, guid: 16551c007106f694082560c092c87843,
         type: 3}
       propertyPath: m_Name
