@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class CreditsMenu : MonoBehaviour
 {
+
+    public Color m_programmerColor=new Color(255,100,100) ;
+    public Color m_artistColor= new Color(100, 255, 100);
+    public Color m_coachColor = new Color(100, 100, 255);
+
     [SerializeField]
     [Tooltip("List of students working on the project")]
     List<CreditsData> m_ListStudent = new List<CreditsData>();
@@ -19,6 +24,15 @@ public class CreditsMenu : MonoBehaviour
 
 
     int lastIndex;
+    public bool m_loadPageAtStart=true;
+
+
+    private void Start()
+    {
+        if (m_loadPageAtStart)
+            ShowNextPage();
+    }
+
 
 
     [ContextMenu("Next Page")]
@@ -61,15 +75,15 @@ public class CreditsMenu : MonoBehaviour
             m_ListImageProfile[i].sprite = listStudent[i].m_profilePicture;
             if (listStudent[i].studentJob == CreditsData.m_studentJob.Developer)
             {
-                m_ListTextStudent[i].color = Color.blue;
+                m_ListTextStudent[i].color = m_programmerColor;
             }
             else if(listStudent[i].studentJob == CreditsData.m_studentJob.Artist)
             {
-                m_ListTextStudent[i].color = Color.green;
+                m_ListTextStudent[i].color = m_artistColor;
             }
             else
             {
-                m_ListTextStudent[i].color = Color.red;
+                m_ListTextStudent[i].color = m_coachColor;
             }
         }
 

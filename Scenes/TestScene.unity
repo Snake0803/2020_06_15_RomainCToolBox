@@ -606,6 +606,66 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 09503e1029aebb7498c952b7819c2eec,
         type: 2}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_programmerColor.r
+      value: 0.49411762
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_programmerColor.g
+      value: 0.8692547
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_programmerColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_programmerColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_artistColor.r
+      value: 0.6084906
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_artistColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_artistColor.b
+      value: 0.6084906
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_artistColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_coachColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_coachColor.g
+      value: 0.83008444
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_coachColor.b
+      value: 0.41037738
+      objectReference: {fileID: 0}
+    - target: {fileID: 163519980447114997, guid: 16551c007106f694082560c092c87843,
+        type: 3}
+      propertyPath: m_coachColor.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 163519980447115006, guid: 16551c007106f694082560c092c87843,
         type: 3}
       propertyPath: m_Name
